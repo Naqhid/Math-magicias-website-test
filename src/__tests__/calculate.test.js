@@ -42,3 +42,5 @@ describe('test calculate function', () => {
     expect(total).toBe('2.');
   });
 });
+
+// test adding to the calculate operations.
