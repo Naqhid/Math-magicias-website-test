@@ -31,7 +31,9 @@ npm start
 
 ### Test
 
+```
 npm run test
+```
 
 ## Author
 
