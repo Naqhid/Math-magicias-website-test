@@ -15,3 +15,5 @@ describe('Quotes', () => {
     expect(quote).toMatchSnapshot();
   });
 });
+
+// test add to quotes
