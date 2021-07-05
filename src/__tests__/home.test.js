@@ -15,3 +15,5 @@ describe('Home', () => {
     expect(home).toMatchSnapshot();
   });
 });
+ 
+// testing home component

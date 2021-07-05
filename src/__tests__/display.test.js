@@ -9,4 +9,4 @@ describe('Display', () => {
     expect(displayTree).toMatchSnapshot();
   });
 });
-//  adding test to display page
+
