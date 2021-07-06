@@ -11,4 +11,3 @@ describe('Display', () => {
 });
 
 // testing the display
-
