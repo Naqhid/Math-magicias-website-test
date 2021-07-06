@@ -46,7 +46,7 @@ Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
 
 👤 **Mohammed Naqhid**
 
-- GitHub: [@Naqhid](https://github.com/Naqhid)s
+- GitHub: [@Naqhid](https://github.com/Naqhid)
 - Twitter: [Naqhid](https://twitter.com/naqhid)
 - LinkedIn: [Naqhid](https://www.linkedin.com/in/mohammed-naqhid-ab3080189/)
 - Email: mnaqhid@gmail.com
