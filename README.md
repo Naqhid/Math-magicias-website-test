@@ -53,7 +53,7 @@ Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
 
 ## Show your support
 
-Give a ⭐️ if you like this project.!
+Give a ⭐️ if you like this project!
 
 
 
