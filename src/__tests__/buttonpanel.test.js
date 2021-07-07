@@ -11,3 +11,5 @@ test('All buttons are rendered', () => {
   const panel = render(<ButtonPanel buttons={buttons} clickHandler={clickHandler} />);
   expect(panel.findAllByRole('button'));
 });
+
+// test adding to button-panel

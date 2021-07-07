@@ -18,3 +18,5 @@ describe('test operate funtions', () => {
     expect(operate(num1, num2, 'X')).toBe('20');
   });
 });
+
+// adding tests for operations

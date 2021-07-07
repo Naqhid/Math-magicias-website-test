@@ -16,3 +16,5 @@ test('Checking if it renders the button texts correctly', () => {
   const eqlBtn = getByText(/=/i);
   expect(eqlBtn).toBeInTheDocument();
 });
+
+// tests adding to button

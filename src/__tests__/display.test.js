@@ -9,3 +9,5 @@ describe('Display', () => {
     expect(displayTree).toMatchSnapshot();
   });
 });
+
+// testing the display
