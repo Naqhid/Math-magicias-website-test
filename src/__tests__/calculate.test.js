@@ -6,6 +6,11 @@ describe('test calculate function', () => {
     const { total } = result;
     expect(total).toEqual('4');
   });
+  test('negative test case', () => {
+    const result = calculate({ total: '2', next: '2', operation: '+' }, '=');
+    const { total } = result;
+    expect(total).not.toEqual('5');
+  });
   test('Subtract two numbers after pressing equal sign', () => {
     const result = calculate({ total: '4', next: '1', operation: '-' }, '=');
     const { total } = result;
@@ -26,10 +31,20 @@ describe('test calculate function', () => {
     const { total } = result;
     expect(total).toEqual('-5');
   });
+  test('negative test case', () => {
+    const result = calculate({ total: '5', next: '', operation: '' }, '+/-');
+    const { total } = result;
+    expect(total).not.toEqual('5');
+  });
   test('Make a negative number positive when presssing the +/- button', () => {
     const result = calculate({ total: '-5', next: '', operation: '' }, '+/-');
     const { total } = result;
     expect(total).toEqual('5');
+  });
+  test('Make a negative number positive when presssing the +/- button', () => {
+    const result = calculate({ total: '-5', next: '', operation: '' }, '+/-');
+    const { total } = result;
+    expect(total).not.toEqual('-5');
   });
   test('Converting a number to its percentage form', () => {
     const result = calculate({ total: '5', next: '', operation: '' }, '%');
